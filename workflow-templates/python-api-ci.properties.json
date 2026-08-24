@@ -1,0 +1,7 @@
+{
+  "name": "Tanikala Python API CI",
+  "description": "Lint, format-check, and test a Python API managed with uv.",
+  "iconName": "octicon server",
+  "categories": ["Python"],
+  "filePatterns": ["^pyproject\\.toml$"]
+}

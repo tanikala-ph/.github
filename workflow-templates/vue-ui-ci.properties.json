@@ -1,0 +1,7 @@
+{
+  "name": "Tanikala Vue UI CI",
+  "description": "Install and build a Vue application with npm.",
+  "iconName": "octicon browser",
+  "categories": ["JavaScript"],
+  "filePatterns": ["^package\\.json$", "^vite\\.config\\.(js|ts)$"]
+}
