@@ -1,0 +1,55 @@
+name: Bug report
+description: Report reproducible behavior that is not working as intended.
+title: "[Bug] "
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: Application
+      options:
+        - Tanikala API
+        - Tanikala UI
+        - Aral
+        - Convos
+        - Pondo
+        - Sulat
+        - Ecosystem or shared platform
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the route or endpoint, browser or client, and relevant version or commit.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional evidence
+      description: Add sanitized logs or screenshots. Do not include credentials or private user data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed credentials, private data, and private reviewer content from this report.
+          required: true
