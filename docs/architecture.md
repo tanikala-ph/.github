@@ -137,4 +137,3 @@ requires a dedicated realtime gateway or a distributed broker-backed redesign.
 - New public data requires an explicit privacy and moderation review.
 - New background or realtime workloads must document durability, retry, scaling,
   and shutdown behavior before release.
-
