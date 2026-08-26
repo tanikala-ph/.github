@@ -15,5 +15,11 @@ Our public engineering standards live in this organization repository. Product
 source repositories remain private while the platform is under active
 development.
 
+## Engineering
+
+- [Platform architecture](../docs/architecture.md)
+- [Infrastructure and operations](../docs/infrastructure.md)
+- [Governance](../GOVERNANCE.md)
+
 For support, privacy, security, or partnership inquiries, email
 `support@tanikala.ph`.
